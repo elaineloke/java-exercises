@@ -1,0 +1,29 @@
+The src folder contains 5 Java files, each corresponding to the Nova coding challenges.
+
+How to run the programs
+________________________
+
+Before running the program, please ensure you have Java SE Development Kit installed.
+
+Using IDEs:
+All the files are ready to run on an integrated development environment(IDE).
+After extracting the contents from the zip file, open the whole novaTechTest folder as a new project in the IDE.
+Navigate to the src folder to find all the 5 Java files. 
+Each file contains a scanner object which allows users to enter an input in the terminal.
+The function will run automatically to compute the answer.
+
+Using command line:
+Open the command prompt window and use the 'cd' command to navigate to the /src directory.
+>> $ cd novaTechTest/src/
+
+Type the command line below to compile the code into a class file:
+>> $ javac {file-name.java}
+example: $ javac Initials.java
+
+Press enter to compile the code. The command prompt will move to the next line.
+
+Type the command line below to run the program:
+>> $ java {file-name}
+example: $ java Initials
+
+Press enter and the program will start running, prompting the user to enter an input.
